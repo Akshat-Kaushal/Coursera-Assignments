@@ -18,7 +18,7 @@ background-color: rgb(153,153,153);
 margin top: 20px;
 margin-right: 20px;
 width: 400px;
-height: 220px;
+height: 250px;
 text-align: justify-all;
 padding: 17px;
 position: relative;
@@ -44,7 +44,7 @@ background-color: rgb(153,153,153);
 margin top: 20px;
 margin-right: 20px;
 width: 400px;
-height: 220px;
+height: 250px;
 text-align: justify-all;
 padding: 17px;
 position: relative;
@@ -59,7 +59,7 @@ background-color: rgb(153,153,153);
 margin top: 20px;
 margin-right: 20px;
 width: 400px;
-height: 220px;
+height: 250px;
 text-align: justify-all;
 padding: 17px;
 position: relative;
@@ -88,10 +88,25 @@ margin: 10px;
 	width: 100%;
 }
 
-@media (min-width: 992px) {
- 
-  .col-lg-4 {
-    width: 33.33%;
-    float: left;
+@media only screen and (max-device-width: 768px) {
+	.container div.chicken,div.sushi,div.beef  {
+		width: 92%;
+
+	}
+}
+
+@media only screen and (min-device-width: 768px) and (max-device-width : 1024px) {
+	.container div.chicken,div.beef {
+		width: 45%;
+	}
+	.container div.sushi {
+		width: 92%;
+	}
+}
+
+@media only screen and (min-device-width: 1024px){
+	
+	.container div.chicken,div.sushi,div.beef {
+		width: 30%;
 	}
 }
