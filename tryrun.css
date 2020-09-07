@@ -1,0 +1,97 @@
+*
+{
+	box-sizing: border-box;
+}
+
+h1
+{
+  font-family:  Century Gothic;
+  font-size: 28px;
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.chicken
+{
+border: 2.5px solid black;
+background-color: rgb(153,153,153);
+margin top: 20px;
+margin-right: 20px;
+width: 400px;
+height: 220px;
+text-align: justify-all;
+padding: 17px;
+position: relative;
+float: left;
+margin: 10px;
+}
+span
+{
+	font-family: Century Gothic;
+	font-size: 18px;
+	width: 150px;
+	border: 1.5px solid black;
+    text-align: center;
+    float: right; top :0; right: 0; margin: 0;
+	position: absolute;
+	background-color: 
+}
+
+.beef
+{
+border: 2.5px solid black;
+background-color: rgb(153,153,153);
+margin top: 20px;
+margin-right: 20px;
+width: 400px;
+height: 220px;
+text-align: justify-all;
+padding: 17px;
+position: relative;
+float: left;
+margin: 10px;
+}
+
+.sushi
+{
+border: 2.5px solid black;
+background-color: rgb(153,153,153);
+margin top: 20px;
+margin-right: 20px;
+width: 400px;
+height: 220px;
+text-align: justify-all;
+padding: 17px;
+position: relative;
+float: left;
+margin: 10px;
+}
+
+#span1
+{
+	background-color: rgb(213,152,152);
+}
+
+#span2
+{
+	background-color: rgb(193,69,67);
+	color: rgb(255,255,255);
+}
+
+#span3
+{
+	background-color: rgb(229,209,152);
+}
+
+.row
+{
+	width: 100%;
+}
+
+@media (min-width: 992px) {
+ 
+  .col-lg-4 {
+    width: 33.33%;
+    float: left;
+	}
+}
